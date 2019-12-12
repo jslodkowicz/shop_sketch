@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'accounts.apps.AccountsConfig',  # accounts app / contains register model
     'shop.apps.ShopConfig',  # shop app / contains product model
 ]
