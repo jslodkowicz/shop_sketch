@@ -10,4 +10,5 @@
     {% else %}
         <p>You are not logged in! Click <a href="{% url "login" %}">here</a> to log in.</p>
     {% endif %}
+    <h2>To buy some products, visit <a href="{% url "shop:product_list" %}">our shop</a>.</h2>
 {% endblock %}

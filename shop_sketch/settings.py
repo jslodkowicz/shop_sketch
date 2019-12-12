@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts.apps.AccountsConfig',  # accounts app / contains register model
+    'shop.apps.ShopConfig',  # shop app / contains product model
 ]
 
 MIDDLEWARE = [
